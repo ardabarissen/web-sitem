@@ -15,8 +15,37 @@
       div.flex-container3 { display: flex; }
       div.alt3 { position: relative; top: -90px; text-align: center; }
       button.navigate-button3 { position: relative; top: -105px; margin-left: 42.5%; border-radius: 5px; }
-      footer p {position: relative; text-align: center; font-size: 12px; top :6px }
-
+            .thanks {
+    background-color: #f3eded; /* Açık bir gri arka plan */
+    border: 3px solid;
+    border-radius: linear-gradient(45deg, #4caf50, #81c784) 1; /* Gradyan çerçeve */
+    border-color: rgb(245, 208, 123);
+    padding: 20px; /* İç boşluk */
+    margin: 20px auto; /* Merkezleme ve boşluk */
+    width: 60%; /* Genişlik ayarı */
+    border-radius: 15px; /* Daha belirgin köşe yumuşatma */
+    box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.1), 0 6px 12px rgba(0, 0, 0, 0.15); /* İç ve dış gölge */
+    font-family: Arial, Helvetica, sans-serif; /* Zarif bir yazı tipi */
+    font-size: 18px; /* Yazı boyutu */
+    line-height: 1.8; /* Satır aralığı */
+    color: #2c3e50; /* Yazı rengi */
+    text-align: justify; /* Yazıyı hizalama */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover animasyonu */
+}
+.thanks:hover {
+    transform: scale(1.02); /* Hafif büyüme efekti */
+    box-shadow: inset 0 5px 7px rgba(0, 0, 0, 0.15), 0 8px 16px rgba(0, 0, 0, 0.2); /* Daha belirgin gölge */
+}
+.thanks p {
+    margin: 0; /* Paragraf dış boşluklarını kaldırma */
+    border-bottom: 1px dashed #ccc; /* Alt çizgi dekorasyonu */
+    padding-bottom: 10px; /* Alt boşluk */
+}
+.thanks p:last-child {
+    border-bottom: none; /* Son paragrafta çizgi yok */
+    padding-bottom: 0; /* Son paragrafta boşluk yok */
+}
+footer p {position: relative; text-align: center; font-size: 12px; top :6px }
 button.navigate-button1,
 button.navigate-button2,
 button.navigate-button3 {
@@ -359,6 +388,7 @@ footer { height: 35px}}
         window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSeCZ5_dx8-KSo5cxbf7xW_xKPu9rpWz7JpCxY0OuLCy_6hYFA/viewform?usp=sf_link";});
     </script>
 
+<div class="thanks"><p>Kocaeli Üniversitesi Fen Edebiyat Fakültesi Tarih Bölümü'nden Dr. Öğr. Üyesi Özge Aslanmirza ve Arş. Gör. Burak Aslanmirza'ya ürünüm hakkındaki incelemeleri ve önerileri için teşekkür ederim.</p></div>
     <footer><p>Arda Barış Şen - ardabarissenn@gmail.com</p></footer>
   </body>
 </html>
