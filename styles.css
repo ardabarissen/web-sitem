@@ -1,0 +1,17 @@
+<style> 
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: white; font-family: Arial, Helvetica, sans-serif; margin: 0px; padding:0px; position: relative }
+header { position: relative; background-color: black; color: white; padding: 0px; text-align: center; background-image: url(arkaplan.png);}  
+header a {color: white; text-decoration: none; text-transform: uppercase; margin-top: 20px}
+header .logo a {background-image: url(Ekran\ görüntüsü\ 2024-11-26\ 194140.png); background-size: 300px; position: relative; display: inline-block; height: 80px; top: -10px; background-repeat: no-repeat; text-indent: -9999999px; width: 300px; }
+header .logo a {background-color: black;}
+li.logo { position: relative; top: 0px}
+section { background: white; color: white; padding: 20px; display: flex; flex-direction: row}
+div { background: white; color: black; width: 100%; margin: 0px } 
+ul { padding: 0px; list-style-type: none;}
+li {position: relative; display: inline-block; border-radius: 5px;padding: 15px; top: 20px}
+li:hover {background-color:rgb(56, 6, 6)}
+a { color: white; text-decoration: none;}
+ a:hover {text-decoration: underline}
+footer{ position: sticky;  bottom: 0px; text-align: center; background: rgb(56, 6, 6); color: white; height: 30px; margin: 0px; font-size: 12px}
+</style> 

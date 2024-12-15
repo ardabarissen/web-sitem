@@ -1,0 +1,748 @@
+<html>
+  <head>
+  <title>Kişisel Projem</title>  
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    header .mobile {display: none }
+    header .logo a {background-image: url(Ekran\ görüntüsü\ 2024-11-26\ 194140.png); background-size: 300px; position: relative; display: inline-block; height: 80px; top: -10px; background-repeat: no-repeat; text-indent: -9999999px; width: 300px; }
+    section.üst div { position: relative; top: -35px; text-align: center;}
+     section.üst1 div h3 { position: relative; top: -110px; margin-left: -5px; }
+     section.üst1 div p { position: relative; top: -110px; margin-left: -5px; }
+     div.amaç { position: relative; text-align: left; width: 50%; top: -90px; margin-left: 12px }
+     div.formbilgisi { position: relative; text-align: left; width: 50%; top: -50px; margin-left: 12px }
+   
+  /* Genel Form Konteyneri */
+  .form-container { position: relative; top: -350px; ;max-width: 500px; margin-left: 60%; padding: 20px; background: linear-gradient(to right,rgb(147, 77, 77), #788db5); border-radius: 15px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); font-family: Arial, sans-serif;}  
+/* Form Başlığı */
+    .form-container h2 { text-align: center; color: #333; margin-bottom: 20px;}  
+/* Etiket Stili */
+    form label { display: block; margin-bottom: 5px; font-weight: bold; color: #333;}  
+/* Giriş ve Metin Kutusu */
+    form input, form textarea {width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 8px; font-size: 14px; box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);}
+   form input:focus, form textarea:focus { border-color: #555; outline: none; box-shadow: 0 0 5px rgba(85, 85, 85, 0.5);}
+/* Gönder Butonu */
+   form button { width: 100%; padding: 10px; background: #555; color: white; border: none; border-radius: 8px; cursor: pointer; font-size: 16px; transition: background 0.3s;}
+   form button:hover { background: #333;}
+
+
+
+   
+   .project-gallery {
+  text-align: center;
+  background-color: #f4f4f4;
+  width: 100%;
+  margin-top: -310px;
+  border-top: 4px solid #4CAF50;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+
+.gallery {
+  display: flex;
+  position: relative;
+  top: 25px;
+  width: 60%;
+  height: 250px;
+  display: flex;
+    flex-direction: row; 
+    align-items: center;
+  background-color: rgb(238, 227, 227);
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap; /* Küçük ekranlarda fotoğraflar alt alta geçer */
+}
+
+
+.project-gallery div.yazı {
+  position: relative;
+  padding: 0px;
+  height: 0px;
+  top: -15px;
+}
+
+.project-gallery div h3 {  
+    font-size: 15px;
+  position: relative;
+  padding: 0px;
+  width: 100%;
+  margin-left: 0px;
+  height: 0px;
+  top: 10px;
+  justify-content: center;
+  font-weight: bold; 
+  color: #2d2d2d;
+  letter-spacing: 1px; }
+
+.photo {
+  text-align: center;
+  position: relative;
+  top: 5px; 
+  max-width: 220px;
+  background-color: #ffffff; /* Fotoğrafların altında kart hissiyatı için */
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.photo:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+.photo img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+
+.photo p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #555;
+  margin: 0;
+}
+ 
+footer p { position: sticky;  bottom: 0px; text-align: center; font-size: 12px; top: 6px;}
+ 
+@media (min-width: 584px) and (max-width: 768px)  
+{section.üst div {
+    top: 0;
+    text-align: center;
+  }
+
+
+  section.üst1 div h3, section.üst1 div p {
+    top: 0;
+    margin-left: 0;
+    font-size: 16px;
+  }
+
+
+  div.amaç, div.formbilgisi {
+    width: 90%;
+    top: 0;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+
+  .form-container {
+    max-width: 90%;
+    margin: 20px auto;
+    top: 0;
+    position: relative; /* Pozisyon sıfırlandı */
+  }
+
+
+.project-gallery 
+ 
+ {position: relative;
+    text-align: center;
+    background-color: #f4f4f4; 
+    margin-top: -300px;
+    margin-left: 0px;
+    border-top: 4px solid #4CAF50;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    height: 950px;
+    border-radius: 10px; }
+  
+
+/* H3 başlığı üstte tutmak için */
+.project-gallery h3 {
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px; /* Fotoğraflardan uzaklaşması için */
+  font-weight: bold;
+  color: #2d2d2d;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  height: -50px
+}
+
+/* Fotoğraflar alt alta gelsin */
+.gallery {
+  position: relative;
+  display: inline-block;
+  width: 90%;
+  height: 950px;
+  margin: 20px auto;
+  gap: 10px
+  
+  
+}
+
+.photo {
+  width: 99%; /* Fotoğraf genişliğini küçültmek */
+  margin: auto; /* Ortalamak için */
+  
+}
+
+.photo img {
+  width: 50%; /* Fotoğrafların genişliğini ayarlamak */
+  height: auto; /* Oranı korumak */
+
+  }
+
+  footer p {
+    font-size: 10px;
+    top: 0;
+  }}
+
+  @media (min-width: 1px) and (max-width: 345px) 
+ 
+  { ul.desktop {display: none;}
+ul.mobile { display: inline-block;}
+
+div.form-container
+  { position: relative; margin-left: -15px;}
+
+.project-gallery 
+ 
+ {position: relative;
+    text-align: center;
+    background-color: #f4f4f4; 
+    margin-top: -300px;
+    margin-left: -10px ;
+    border-top: 4px solid #4CAF50;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; }
+  
+  }
+
+/* H3 başlığı üstte tutmak için */
+.project-gallery h3 {
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px; /* Fotoğraflardan uzaklaşması için */
+  font-weight: bold;
+  color: #2d2d2d;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  height: -50px
+}
+
+/* Fotoğraflar alt alta gelsin */
+.gallery {
+  position: relative;
+  display: flex;
+  flex-direction: column; /* Alt alta sıralama */
+  align-items: center; /* Fotoğrafları ortalamak için */
+  gap: 20px; /* Fotoğraflar arası boşluk */
+  
+}
+
+.photo {
+  width: 90%; /* Fotoğraf genişliğini küçültmek */
+  margin: auto; /* Ortalamak için */
+}
+
+.photo img {
+  width: 100%; /* Fotoğrafların genişliğini ayarlamak */
+  height: auto; /* Oranı korumak */
+  }
+
+
+
+@media (min-width: 345px) and (max-width: 482px)   
+{ul.desktop {display: none;}
+ul.mobile { display: inline-block;}
+
+div.form-container
+  { position: relative; margin-left: -4%;}
+
+.project-gallery {
+    text-align: center;
+    background-color: #f4f4f4; 
+    margin-top: -300px;
+    margin-left: -2% ;
+    border-top: 4px solid #4CAF50;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  
+  }
+
+  /* H3 başlığı üstte tutmak için */
+  .project-gallery h3 {
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px; /* Fotoğraflardan uzaklaşması için */
+    font-weight: bold;
+    color: #2d2d2d;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    height: -50px
+  }
+
+  /* Fotoğraflar alt alta gelsin */
+  .gallery {
+    position: relative;
+    display: flex;
+    flex-direction: column; /* Alt alta sıralama */
+    align-items: center; /* Fotoğrafları ortalamak için */
+    gap: 20px; /* Fotoğraflar arası boşluk */
+    
+  }
+
+  .photo {
+    width: 90%; /* Fotoğraf genişliğini küçültmek */
+    margin: auto; /* Ortalamak için */
+  }
+
+  .photo img {
+    width: 100%; /* Fotoğrafların genişliğini ayarlamak */
+    height: auto; /* Oranı korumak */
+  }
+
+}
+
+
+
+@media (max-width: 334px) 
+{header .logo a { margin-left: 20px ;background-size: 200px; height: 53px ;width: 200px}} 
+
+@media (max-width: 270px) 
+{header .logo a { margin-left: 1% ;background-size: 150px; height: 40px ;width: 150px}}
+
+
+/* Küçük cihazlar (telefonlar) için */
+@media (max-width: 768px)
+{  section.üst div {
+    top: 0;
+    text-align: center;
+  }
+
+
+  section.üst1 div h3, section.üst1 div p {
+    top: 0;
+    margin-left: 0;
+    font-size: 16px;
+  }
+
+
+  div.amaç, div.formbilgisi {
+    width: 90%;
+    top: 0;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+
+  .form-container {
+    max-width: 90%;
+    margin: 20px auto;
+    top: 0;
+    position: relative; /* Pozisyon sıfırlandı */
+  }
+
+
+  .project-gallery {
+    margin-top: 20px;
+    padding: 20px;
+  }
+
+
+  .gallery {
+    width: 100%;
+    margin-left: 0;
+    gap: 10px;
+  }
+
+
+  .project-gallery h3 {
+    width: auto;
+    margin-left: 0;
+    font-size: 20px;
+    top: 0;
+  }
+
+
+  .photo {
+    max-width: 100%;
+  }
+
+
+  footer p {
+    font-size: 10px;
+    top: 0;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1372px) {/* Form-container'ın pozisyonunu ayarlıyoruz */
+ div.form-container {
+  position: relative;  
+  margin-top: 300px; /* Form'un, diğer öğelere daha fazla boşluk bırakmasını sağlıyor */
+    left: -30%;
+    height: 300px;
+    width: 50%;
+    margin-bottom: 20px; /* Galeri ile form arasında mesafe */
+  }
+
+  /* Div.amaç ve div.formbilgisi öğelerinin boyutlarını düzenleyerek form-container'ın üstüne gelmesini engelliyoruz */
+  div.amaç { margin-left: 5px; top: -120px;}
+  div.amaç h3, div.amaç p {width: 1000px }
+  div.formbilgisi { margin-left: 5px; top: -100px;}
+  div.formbilgisi h3, div.formbilgisi p {width: 1000px }
+
+  /* Proje galerisi için de margin-top ekliyoruz */
+  .project-gallery {
+    margin-top: -250px; /* Form-container'ın altına mesafe ekliyoruz */
+  }
+
+  .gallery {
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  .project-gallery h3 {
+    font-size: 22px;
+    margin-left: 0;
+    width: auto;
+  }
+}
+ 
+  @media (min-width: 769px) and (max-width: 1300px) 
+  { .form-container {
+    margin-top: 350px; /* Form'un, diğer öğelere daha fazla boşluk bırakmasını sağlıyor */
+    margin-left: 20%;
+    margin-bottom: 50px; /* Galeri ile form arasında mesafe */
+  }
+
+  /* Div.amaç ve div.formbilgisi öğelerinin boyutlarını düzenleyerek form-container'ın üstüne gelmesini engelliyoruz */
+  div.amaç, div.formbilgisi {
+    width: 90%; /* Daha dar alan */
+    justify-content: center; /* Otomatik marjin ile merkezle */
+  }
+
+  /* Proje galerisi için de margin-top ekliyoruz */
+  .project-gallery {
+    margin-top: -250px; /* Form-container'ın altına mesafe ekliyoruz */
+  }
+
+  .gallery {
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  .project-gallery h3 {
+    font-size: 22px;
+    margin-left: 0;
+    width: auto;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1015px) {
+
+  .project-gallery {
+    margin-top: -300px; /* Form-container'ın altına mesafe ekliyoruz */
+  }
+
+  .gallery {
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  .project-gallery h3 {
+    font-size: 22px;
+    margin-left: 0;
+    width: auto;
+  }
+  .photo {
+    max-width: 22%;
+  }
+}
+
+
+@media (min-width: 717px) and (max-width: 768px) 
+{
+  .project-gallery {
+    margin-top: 0px; /* Form-container'ın altına mesafe ekliyoruz */
+    width: 95%;
+    height: 1150px;
+    display: inline-block;
+  }
+
+  .gallery {
+    width: 90%;
+    height: 1050px;
+    margin: 20px auto;
+  }
+
+  .project-gallery h3 {
+    font-size: 22px;
+    margin-left: 0;
+    width: auto;
+  }
+  .photo {
+    max-width: 50%;
+  } 
+
+ footer {margin-top: 50px;}}
+
+
+@media (min-width: 624px) and (max-width: 717px) 
+{
+  .project-gallery {
+    margin-top: 0px; /* Form-container'ın altına mesafe ekliyoruz */
+    width: 95%;
+    display: inline-block;
+  }
+
+  .gallery {
+    width: 90%;
+    height: 850px;
+    margin: 20px auto;
+  }
+
+  .project-gallery h3 {
+    font-size: 22px;
+    margin-left: 0;
+    width: auto;
+  }
+  .photo {
+    max-width: 50%;
+  } }
+
+  
+@media (min-width: 698px) and (max-width: 700px) 
+{
+  .project-gallery {
+    margin-top: 0px; /* Form-container'ın altına mesafe ekliyoruz */
+    width: 95%;
+    height: 1050px;
+    display: inline-block;
+  }
+
+  .gallery {
+    width: 90%;
+    height: 850px;
+    height: 950px;
+    margin: 20px auto;
+  }
+
+  .project-gallery h3 {
+    font-size: 22px;
+    margin-left: 0;
+    width: auto;
+  }
+  .photo {
+    max-width: 50%;
+  } }
+
+
+@media (min-width: 605px) and (max-width: 618px) 
+{
+  .project-gallery {
+    margin-top: 0px; /* Form-container'ın altına mesafe ekliyoruz */
+    width: 95%;
+    display: inline-block;
+  }
+
+  .gallery {
+    width: 90%;
+    height: 850px;
+    margin: 20px auto;
+  }
+
+  .project-gallery h3 {
+    font-size: 22px;
+    margin-left: 0;
+    width: auto;
+  }
+  .photo {
+    max-width: 50%;
+  } }
+
+  @media (min-width: 584px) and (max-width: 588px) 
+{
+  .project-gallery {
+    margin-top: 0px; /* Form-container'ın altına mesafe ekliyoruz */
+    width: 95%;
+    height: 950px;
+    display: inline-block;
+   
+  }
+
+  .gallery {
+    width: 90%;
+    height: 850px;
+    margin: 20px auto;
+  }
+
+  .project-gallery h3 {
+    font-size: 22px;
+    margin-left: 0;
+    width: auto;
+  }
+  .photo {
+    max-width: 50%;
+  } }
+
+
+@media (min-width: 618px) and (max-width: 624px) 
+
+{    
+  .project-gallery {
+    margin-top: 0px; /* Form-container'ın altına mesafe ekliyoruz */
+    width: 90%;
+  }
+
+  .gallery {
+    width: 90%;
+    height: 750px;
+    margin: 20px auto;
+  }
+
+  .project-gallery h3 {
+    font-size: 22px;
+    margin-left: 0;
+    width: auto;
+  }
+  .photo {
+    max-width: 50%;
+  } }
+
+  
+@media (min-width: 588px) and (max-width: 605px) 
+
+{    
+  .project-gallery {
+    margin-top: 0px; /* Form-container'ın altına mesafe ekliyoruz */
+    width: 90%; 
+
+  }
+
+  .gallery {
+    width: 90%;
+    height: 850px;
+    margin: 20px auto;
+  }
+
+  .project-gallery h3 {
+    font-size: 22px;
+    margin-left: 0;
+    width: auto;
+  }
+  .photo {
+    max-width: 50%;
+  } }
+
+  @media (min-width: 1px) and (max-width: 584px) 
+
+{    
+  .project-gallery {
+    margin-top: 0px; /* Form-container'ın altına mesafe ekliyoruz */
+    width: 90%;
+  }
+
+  .gallery {
+    width: 90%;
+    height: 750px;
+    margin: 20px auto;
+  }
+
+  .project-gallery h3 {
+    font-size: 22px;
+    margin-left: 0;
+    width: auto;
+  }
+  .photo {
+    max-width: 50%;
+  } }
+
+/* Büyük ekranlar (masaüstü) için */
+@media (min-width: 1025px) {
+  div.amaç, div.formbilgisi {
+    width: 50%;
+    margin-left: 12px;
+  }
+
+  .form-container {
+    max-width: 500px;
+    margin-left: 60%;
+    top: -350px; }
+
+  .gallery {
+    width: 100%;
+   
+  }
+
+  .project-gallery h3 {
+    width: 20%;
+    margin-left: 5%;
+  }
+}
+  
+  </style>
+  <head>
+   <body>
+  <header>
+    <nav>
+      <ul class="desktop">
+        <li class="x"><a href="MYP.html">MYP</a></li>
+        <li class="logo"><a href="index.html">3 Büyük Diktatör logo</a></li>
+        <li class="y"><a href="ben.html">Ben</a></li>
+      </ul>
+     <ul class="mobile">
+      <li class="x"><a href="MYP.html">MYP</a></li>
+      <li class="y"><a href="ben.html">Ben</a></li>
+      <li class="logo"><a href="index.html">3 Büyük Diktatör logo</a></li></ul>
+    </nav>
+   </header>
+   <section class="üst">
+    <div><h1>Hakkımda</h1></div>
+  </section>
+  <section class="üst1">
+    <div>
+      <h3>Kısa Özgeçmiş:</h3>
+      <p>2008 yılında Kocaeli'de doğdum ve burada büyüdüm. Lise eğitimi için İstanbul ENKA Okulları'nda burs kazandıktan sonra eğitimime İstanbul'da devam etmeye başladım. Hem sözel hem de sayısal alanlara ilgi duyuyorum. Yazmaya olan tutkumla çeşitli şiir, paragraf ve makale yarışmalarına katıldım. Bunun yanı sıra matematik ve fizik derslerine olan ilgimle bu alanlarda yarışmalara katılarak kendimi geliştirmeye çalışıyorum.</p>
+    </div>
+  </section>
+  <div class="amaç">
+    <h3>Ürünü Yapmadaki Amacım</h3>
+    <p>Bu kişisel projeyi seçmemin nedeni, tarihe olan uzun süreli ilgim ve tarih hakkında daha fazla bilgi öğrenmek istemem. Araştırmalarımı yapıp, bu bilgilerimi paylaşabilecek seviyeye gelince de öğrenme hedeflerimi bir adım ileri taşıyarak, kendi yaşıtlarımdaki gençleri de eğlendirerek bilgilendirmek için bir dergi ve dergiyi paylaşabilmek için de bu internet sitesini yaptım.</p>
+  </div>
+  <div class="formbilgisi">
+    <div>
+    <h3>İletişim</h3>
+    <p>Herhangi bir sorunuz varsa veya ürünün başka bir platformdan e-book halini ya da fiziksel olarak baskılı halini elde etmek istiyorsanız yandaki formdan ulaşabilirsiniz. </p>
+  </div></div>
+  <div class="form-container">
+    <form action="mailto:ardabarissenn@gmail.com" method="post" enctype="text/plain">
+      <h2>İletişim Formu</h2>
+      <label for="name">Adınız:</label>
+      <input type="text" id="name" name="name" placeholder="Adınızı giriniz" required>
+      <label for="message">Mesajınız:</label>
+      <textarea id="message" name="message" placeholder="Mesajınızı buraya yazın..." required></textarea>
+      <button type="submit">Gönder</button>
+    </form>
+  </div>
+  <div class="project-gallery">
+    <div class="yazı"><h3>Proje Sürecinde Çalışma Masam</h3></div>
+    <div class="gallery">
+      <div class="photo">
+        <img src="1000012211.jpg" alt="Dergimin Tasarımı Üzerinde Çalışırken">
+        <p>Dergimin tasarımı üzerinde çalışırken</p>
+      </div>
+      <div class="photo">
+        <img src="1000012091 (1).jpg" alt="Web Sitem Üzerinde Çalışırken">
+        <p>Web site kodlamam üzerinde çalışırken</p>
+      </div>
+      <div class="photo">
+        <img src="1000012224.jpg" alt="Araştırmalarım ve Yazılarım Üzerinde Çalışırken">
+        <p>Araştırmalarım ve yazılarım üzerinde çalışırken</p>
+      </div>
+    </div>
+  </div>
+  
+
+
+  <footer><p>Arda Barış Şen - ardabarissenn@gmail.com</p></footer>
+     </body>
+</html>    

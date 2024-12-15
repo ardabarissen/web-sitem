@@ -1,0 +1,424 @@
+<html>
+  <head>
+  <title>Kişisel Projem</title>  
+  <link rel="stylesheet" href="styles.css">
+  <style> 
+    header .mobile {display: none }
+    header .logo a {background-image: url(Ekran\ görüntüsü\ 2024-11-26\ 194140.png); background-size: 300px; position: relative; display: inline-block; height: 80px; top: -10px; background-repeat: no-repeat; text-indent: -9999999px; width: 300px; }
+    section.üst div { position: relative; top: -35px; text-align: center;}
+     section.üst1 div h3 { position: relative; top: -110px; margin-left: -5px; }
+     section.üst1 div p { position: relative; top: -110px; margin-left: -5px; }
+
+  section.üst2 div { position: relative; top: -35px ;text-align: center;}
+   
+ 
+   
+ 
+
+div.flex-container { position: relative; display: flex;}
+       div.üst3 { position: relative; margin: auto; text-align: center; width: 45%; top: -0px }
+       div.üst4 { position: relative; margin: auto; text-align: center; width: 45%; top: -9px}
+   
+       div.flex-container2 { position: relative; font-size: 10px; display: flex; flex-direction: row; text-align: center; margin-left: -2%  }  
+       div.alt1 {position: relative; background: white; margin-left: 8%; top: -15px; width: 100%;}
+       div.alt2 {position: relative; background: white; margin-left: 2%; top: -15px; width: 90%; } 
+       div.alt2 p { position: relative; margin-left: 20px; top: -2px}
+
+
+       
+   .timeline-container {
+      position: relative;
+      top: -45px;
+      max-width: 80%;
+      margin: 20px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 8px;
+      border-width: 10px;
+      border-color: black;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .timeline-header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .timeline-header h2 {
+      font-size: 2rem;
+      color: #0056b3;
+    }
+
+ .timeline {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0px;
+  gap: 20px; 
+  justify-content: space-between; 
+}
+
+.timeline-item {
+  width: calc(45%); 
+  display: flex;
+  align-items: flex-start;
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.timeline-item:nth-child(2n) {
+  margin-left: auto; 
+}
+
+.timeline-item .circle {
+  width: 20px;
+  height: 20px;
+  background: #0056b3;
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin-right: 15px;
+}
+
+.timeline-item .content {
+  max-width: 80%;
+}
+
+.timeline-item .content h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  color: #0056b3;
+}
+
+.timeline-item .content p {
+  margin: 5px 0 0;
+  font-size: 1rem;
+  color: #555;
+}
+
+   footer p {position: relative; text-align: center; font-size: 12px; top:6px }
+
+   
+@media (min-width: 1px) and (max-width: 482px)   
+{ul.desktop {display: none;}
+ul.mobile { display: inline-block;} }
+
+
+@media (max-width: 334px) 
+{header .logo a { margin-left: 20px ;background-size: 200px; height: 53px ;width: 200px}} 
+
+@media (max-width: 270px) 
+{header .logo a { margin-left: 1% ;background-size: 150px; height: 40px ;width: 150px}}
+
+
+   @media (max-width: 768px) 
+{  section.üst div {
+    top: 0;
+    text-align: center;
+  }
+
+  section.üst1 div h3, section.üst1 div p {
+    top: 0;
+    margin-left: 0;
+    font-size: 16px;
+  } }
+
+  
+ @media (min-width: 100px) and (max-width: 250px) 
+ { .timeline-item { width: 160px;}
+  .timeline-item .content {width: 160px; } }
+  
+ @media (min-width: 250px) and (max-width: 272px) 
+ { .timeline-item { width: 180px;}
+  .timeline-item .content {width: 150px; }
+  div.alt1 {position: relative; margin-left: 15%; }
+  div.alt2 p { margin-left: 70%;}
+  div.alt2 {position: relative; margin-left: 15%; }
+  div.alt2 p { margin-left: 70%;}
+  div.alt1 img{ width: 170%;} 
+  div.alt2 img{ width: 170%;} }
+
+  @media (min-width: 272px) and (max-width: 300px) 
+ { .timeline-item { width: 200px;}
+  .timeline-item .content {width: 200px; } }
+  
+  @media (min-width: 372px) and (max-width: 425px) 
+  { div.alt1 p { margin-left: 20%;}
+  div.alt2 p { margin-left: 20%;}}
+ 
+  @media (min-width: 425px) and (max-width: 446px) 
+  { div.alt1 p { margin-left: 10%;}
+  div.alt2 p { margin-left: 10%;}}
+  
+ @media (min-width: 300px) and (max-width: 350px) 
+ { .timeline-item { width: 220px;}
+  .timeline-item .content {width: 200px; } }
+  
+ @media (min-width: 350px) and (max-width: 450px) 
+ { .timeline-item { width: 250px;}
+  .timeline-item .content {width: 200px; } }
+  
+ @media (min-width: 450px) and (max-width: 650px) 
+ { .timeline-item { width: 300px;}
+  .timeline-item .content {width: 250px; } }
+  
+ @media (min-width: 650px) and (max-width: 750px) 
+ { .timeline-item { width: 400px;}
+  .timeline-item .content {width: 300px; } }
+    
+ @media (min-width: 750px) and (max-width: 1015px) 
+ { .timeline-item { width: 500px;}
+  .timeline-item .content { width: 350px; } }
+
+  @media (min-width: 1276px) and (max-width: 1700px) 
+  {div.üst3 {top: -3px}
+   div.alt1 {position: relative; margin-left: -2%}
+   div.alt2 {position: relative; margin-left: -1.5%} }
+
+   @media (min-width: 1130px) and (max-width: 1180px) 
+ {div.üst4 h3, div.üst p {top: -15px} }
+
+  @media (min-width: 1180px) and (max-width: 1276px) 
+ {div.üst3 {top: -4px}
+  div.alt1 {position: relative; margin-left: 0.5%}
+   div.alt2 {position: relative; margin-left: 0.5%} }
+
+ @media (min-width: 1100px) and (max-width: 1180px) 
+ { div.alt1 {position: relative; margin-left: 5%}
+   div.alt2 {position: relative; margin-left: 5%} }
+
+ @media (min-width: 1028px) and (max-width: 1100px) 
+ { div.alt1 {position: relative; margin-left: 4%}
+  div.alt2 {position: relative; margin-left: 3%} }
+
+  @media (min-width: 915px) and (max-width: 1028px) 
+ { div.alt1 {position: relative; margin-left: 2%}
+  div.alt2 {position: relative; margin-left: 1%} }
+
+  @media (min-width: 864px) and (max-width: 915px) 
+ { div.alt1 {position: relative; margin-left: -1%}
+  div.alt2 {position: relative; margin-left: -2%} }
+
+  @media (min-width: 825px) and (max-width: 864px) 
+ { div.alt1 {position: relative; margin-left: -3%; width: auto;}
+  div.alt2 {position: relative; margin-left: -5% ; width: auto} }
+
+  
+  @media (min-width: 425px) and (max-width: 825px) 
+{div.flex-container2 { position: relative; font-size: 10px; display: flex; flex-direction: column ; text-align: center;}
+div.alt1 {position: relative; margin-left: 1%; }
+div.alt1 p {position: relative; margin-left: 0%; }
+div.alt2 {position: relative; margin-left: 3% ; }
+div.alt2 p {position: relative; margin-left: 2%; top: 2px }}
+
+@media (min-width: 425px) and (max-width: 481px) 
+{div.flex-container2 { position: relative; font-size: 10px; display: flex; flex-direction: column ; text-align: center;}
+div.alt2 {position: relative; margin-left: 0% ; }
+div.alt2 p {position: relative; margin-left: 15%; }}
+  
+ @media (min-width: 400px) and (max-width: 424px) 
+ {  div.flex-container2 { position: relative; font-size: 10px; display: flex; flex-direction: column ;0px; text-align: center; margin-left: -10%} 
+ div.alt1 {position: relative; margin-left: 1% }
+ div.alt1 p {position: relative; margin-left: 12%; }
+ div.alt2 p {position: relative; margin-left: 30%; } }
+
+ @media (min-width: 385px) and (max-width: 400px) 
+ {  div.flex-container2 { position: relative; font-size: 10px; display: flex; flex-direction: column ;0px; text-align: center; margin-left: -15%}  
+ div.alt1 {position: relative; margin-left: 3% }
+ div.alt2 p {position: relative; margin-left: 40%; }}
+
+ @media (min-width: 355px) and (max-width: 385px) 
+ {div.flex-container2 { position: relative; font-size: 10px; display: flex; flex-direction: column ;0px; text-align: center;}  
+  div.alt1 {position: relative; margin-left: 2%; }
+  div.alt1 p { margin-left: 2%;}
+  div.alt2 {position: relative; margin-left: 5%; }
+  div.alt2 p { margin-left: 5%;}
+  div.alt1 img { width: 100%;} 
+  div.alt2 img { width: 100%;}  }
+
+
+ @media (min-width: 220px) and (max-width: 355px) 
+ {div.flex-container2 { position: relative; font-size: 10px; display: flex; flex-direction: column ;0px; text-align: center;}
+  div.alt1 {position: relative; margin-left: 30%; }
+  div.alt1 p { margin-left: 4%;}
+  div.alt2 {position: relative; margin-left: 35%; }
+  div.alt2 p { margin-left: 5%;}
+  div.alt1 img { width: 100%;} 
+  div.alt2 img { width: 100%;} } 
+
+ 
+
+
+ @media (min-width: 1px) and (max-width: 355px) 
+ {  div.flex-container2 { position: relative; font-size: 10px; display: flex; flex-direction: column ;0px; text-align: center; margin-left: -30%}  }
+
+   @media (min-width: 1028px) and (max-width: 1180px) 
+   {div.üst4 {top: 1px} }
+
+   @media (min-width: 1068px) and (max-width: 1132px) 
+   {div.üst4 {top: 1px}}
+
+   @media (min-width: 972px) and (max-width: 992px) 
+   {div.üst4 {top: 1px}}
+
+   @media (min-width: 864px) and (max-width: 892px) 
+   {div.üst4 {top: 1px}}
+
+   @media (min-width: 812px) and (max-width: 824px) 
+   {div.üst4 {top: 1px}}
+  
+   @media (min-width: 554px) and (max-width: 561px) 
+   {div.üst4 {top: 1px}}
+
+     @media (min-width: 429px) and (max-width: 437px) 
+   {div.üst4 {top: 1px}}
+ 
+   @media (min-width: 421px) and (max-width: 428px) 
+   {div.üst4 {top: 1px}}
+
+   @media (min-width: 365px) and (max-width: 368px) 
+   {div.üst4 {top: 0.5px}}
+
+   @media (min-width: 351px) and (max-width: 365px) 
+   {div.üst4 {top: 1px}}
+
+   @media (min-width: 331px) and (max-width: 341px) 
+   {div.üst4 {top: 1px}}
+   
+   @media (min-width: 341px) and (max-width: 344px) 
+   {div.üst4 {top: 0.5px}}
+
+   @media (min-width: 325px) and (max-width: 331px) 
+   {div.üst4 {top: 0.5px}}
+
+   @media (min-width: 316px) and (max-width: 325px) 
+   {div.üst4 {top: 1px}}
+
+   @media (min-width: 308px) and (max-width: 316px) 
+   {div.üst4 {top: 0.5px}}
+
+   @media (min-width: 306px) and (max-width: 308px) 
+   {div.üst4 {top: 1px}}
+
+   @media (min-width: 302px) and (max-width: 304px) 
+   {div.üst4 {top: 0.5px}}
+
+   @media (min-width: 282px) and (max-width: 288px) 
+   {div.üst4 {top: 0.5px}}
+   
+   @media (min-width: 270px) and (max-width: 274px) 
+   {div.üst4 {top: 0.5px}}
+   
+   @media (min-width: 266px) and (max-width: 270px) 
+   {div.üst4 {top: 1px}}
+
+   @media (min-width: 265px) and (max-width: 266px) 
+   {div.üst4 {top: 0.5px}}
+   
+   @media (min-width: 261px) and (max-width: 265px) 
+   {div.üst4 {top: 1px}}
+
+   @media (min-width: 258px) and (max-width: 260px) 
+   {div.üst4 {top: 0.5px}}
+
+   @media (min-width: 188px) and (max-width: 257px) 
+   {div.üst4 {top: -10px}}
+   
+   </style>
+  <head>
+   <body>
+  <header> 
+    <nav>
+      <ul class="desktop">
+        <li class="x"><a href="MYP.html">MYP</a></li>
+        <li class="logo"><a href="index.html">3 Büyük Diktatör logo</a></li>
+        <li class="y"><a href="ben.html">Ben</a></li>
+      </ul>
+     <ul class="mobile">
+      <li class="x"><a href="MYP.html">MYP</a></li>
+      <li class="y"><a href="ben.html">Ben</a></li>
+      <li class="logo"><a href="index.html">3 Büyük Diktatör logo</a></li></ul>
+    </nav>
+  </header>
+
+
+  <div class="flex-container">
+    <div class="üst3"><h3>MYP Nedir?</h3><p>IB (International Baccalaureate), 3-19 yaş arasındaki öğrenciler için dünya çapında geçerliliği olan yüksek standartlarda eğitim programları sunan bir sistemdir. Eleştirel düşünme, disiplinler arası bağlantı kurma, araştırma yapma ve küresel bilinç geliştirme gibi becerilere odaklanır. MYP (Middle Years Programme), 11-16 yaş arası öğrenciler için tasarlanmış, akademik disiplinleri gerçek dünya bağlamıyla birleştiren bir IB programıdır. Proje bazlı öğrenme, beceri gelişimi ve kişisel proje gibi unsurlarla öğrencilerin bağımsız düşünme ve problem çözme yeteneklerini destekler.</p></div>
+    <div class="üst4"><h3>Kişisel Proje Nedir</h3><p>IB MYP kişisel proje, MYP programının son yılında yapılan, öğrencilerin bağımsız olarak bir konu üzerinde derinlemesine çalıştığı ve seçtikleri bir tema doğrultusunda bir ürün ortaya koyduğu bir projedir. Öğrenciler, ilgi alanlarına ve yeteneklerine göre bir konu seçer, araştırma yapar, bir ürün veya sonuç oluşturur ve sürecin her aşamasını bir raporla belgeler. Proje, öğrencilerin araştırma, yaratıcılık, zaman yönetimi ve eleştirel düşünme becerilerini geliştirmeyi hedefler ve IB öğrenen profilindeki özellikleri göstermelerini sağlar.</p></div>
+  </div>
+
+
+    <div class="flex-container2">
+      <div class="alt1"><figure><img src="Ekran görüntüsü 2024-12-15 103006.png" alt="MYP Odak Noktaları"><p>Öğrenim Hedefleri</p><h4></h4></figure></div>
+      <div class="alt2"><figure><img src="Ekran görüntüsü 2024-12-15 102711.png" alt="MYP Atl Necerileri"><p>ATL Becerileri</p></figure><h4></h4></div>
+    </div>
+
+
+ 
+    <div class="timeline-container">
+      <div class="timeline-header">
+        <h2>Kişisel Proje Süreci</h2>
+      </div>
+      <ul class="timeline">
+        <li class="timeline-item">
+          <div class="circle"></div>
+          <div class="content">
+            <h3>Öğrenme Hedefi Belirleme</h3>
+            <p>Projenin amacı ve öğrenme hedeflerini belirleme.</p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="circle"></div>
+          <div class="content">
+            <h3>Ürün Hedefi Belirleme</h3>
+            <p>Oluşturulacak ürünün özelliklerini ve hedeflerini tanımlama.</p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="circle"></div>
+          <div class="content">
+            <h3>Araştırma Yapma</h3>
+            <p>Konu hakkında detaylı bilgi toplama ve kaynak araştırması yapma.</p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="circle"></div>
+          <div class="content">
+            <h3>Bilgi Toplama</h3>
+            <p>Ürünü geliştirmek için gerekli olan tüm bilgileri toplama.</p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="circle"></div>
+          <div class="content">
+            <h3>Ürün Geliştirme</h3>
+            <p>Ürünü oluşturma sürecine başlama ve geliştirme.</p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="circle"></div>
+          <div class="content">
+            <h3>Ürünü Bitirme</h3>
+            <p>Son düzenlemeleri yaparak ürünü tamamlamak.</p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="circle"></div>
+          <div class="content">
+            <h3>A,B,C Kriteri Raporları Yazma</h3>
+            <p>Proje hedeflerini, araştırma sürecini ve süreç değerlendirmesini yazma.</p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <div class="circle"></div>
+          <div class="content">
+            <h3>Projeyi Sunma</h3>
+            <p>Proje ve ürünü değerlendirme kuruluna veya mentora sunma.</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  <footer><p>Arda Barış Şen - ardabarissenn@gmail.com</p></footer>
+
+</body>
+</html> 
