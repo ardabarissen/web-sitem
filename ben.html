@@ -295,6 +295,58 @@ div.form-container
   }
 
 
+@media (min-width: 467px) and (max-width: 482px)   
+{ul.mobile {display: none;}}
+
+div.form-container
+  { position: relative; margin-left: -4%;}
+
+.project-gallery {
+    text-align: center;
+    background-color: #f4f4f4; 
+    margin-top: -300px;
+    height: 910px;
+    margin-left: -2% ;
+    border-top: 4px solid #4CAF50;
+    box-shadow: 0px 4px 10px rgb(0, 0, 0, 0.1);
+    border-radius: 10px;
+  
+  }
+
+  /* H3 başlığı üstte tutmak için */
+  .project-gallery h3 {
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px; /* Fotoğraflardan uzaklaşması için */
+    font-weight: bold;
+    color: #2d2d2d;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    height: -50px
+  }
+
+  /* Fotoğraflar alt alta gelsin */
+  .gallery {
+    position: relative;
+    display: flex;
+    flex-direction: column; /* Alt alta sıralama */
+    align-items: center; /* Fotoğrafları ortalamak için */
+    gap: 20px; /* Fotoğraflar arası boşluk */
+    
+  }
+
+  .photo {
+    width: 90%; /* Fotoğraf genişliğini küçültmek */
+    margin: auto; /* Ortalamak için */
+  }
+
+  .photo img {
+    width: 100%; /* Fotoğrafların genişliğini ayarlamak */
+    height: auto; /* Oranı korumak */
+  }
+
+}
+
 @media (min-width: 345px) and (max-width: 482px)   
 {ul.desktop {display: none;}
 ul.mobile { display: inline-block;}
@@ -347,7 +399,6 @@ div.form-container
   }
 
 }
-
 
 
 @media (max-width: 334px) 
